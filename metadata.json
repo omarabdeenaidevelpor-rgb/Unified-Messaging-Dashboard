@@ -1,0 +1,6 @@
+{
+  "name": "Bekya Pay — Unified Messaging Dashboard",
+  "description": "Centralized messaging platform for Bekya Pay to manage customer conversations across Instagram and Facebook Messenger with Agent X AI automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

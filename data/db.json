@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "user_1",
+      "name": "Omar Abdeen",
+      "email": "omarabdeenaidevelpor@gmail.com",
+      "role": "Admin",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "online",
+      "department": "Engineering & Operations",
+      "createdAt": "2026-10-28T15:15:46.394Z",
+      "developerBadge": true,
+      "isActive": true,
+      "password": "Omar@Admin2026",
+      "permissions": [
+        "all",
+        "manage_users",
+        "manage_channels",
+        "manage_ai",
+        "reply_messages",
+        "view_reports",
+        "settings"
+      ]
+    },
+    {
+      "id": "user_1793201435532",
+      "name": "محمود فاروق",
+      "email": "mahmoud.farouk@bekyapay.com",
+      "role": "Agent",
+      "department": "Customer Support",
+      "status": "online",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "createdAt": "2026-10-28T15:30:35.532Z",
+      "password": "Bekya@TXuUkz",
+      "permissions": [
+        "reply_messages"
+      ],
+      "isActive": true
+    }
+  ],
+  "customers": [],
+  "conversations": [],
+  "messages": [],
+  "connectedAccounts": [
+    {
+      "id": "acc_ig_1",
+      "platform": "instagram",
+      "accountName": "Bekya Pay Official Instagram",
+      "handle": "@bekyapay.eg",
+      "accountId": "",
+      "pageId": "",
+      "status": "pending_auth",
+      "lastSyncAt": 0,
+      "webhookSubscribed": false,
+      "credentialsConfigured": false,
+      "appId": "",
+      "permissions": [
+        "instagram_manage_messages",
+        "pages_messaging",
+        "pages_show_list"
+      ]
+    },
+    {
+      "id": "acc_fb_1",
+      "platform": "facebook",
+      "accountName": "Bekya Pay Facebook Page",
+      "handle": "facebook.com/BekyaPayEG",
+      "accountId": "",
+      "pageId": "",
+      "status": "pending_auth",
+      "lastSyncAt": 0,
+      "webhookSubscribed": false,
+      "credentialsConfigured": false,
+      "appId": "",
+      "permissions": [
+        "pages_messaging",
+        "pages_messaging_subscriptions",
+        "pages_read_engagement"
+      ]
+    }
+  ],
+  "agentXConfig": {
+    "isConnected": false,
+    "apiKeyMasked": "",
+    "endpointUrl": "https://api.agentx.ai/v1/orchestrator/bekyapay",
+    "webhookSecret": "",
+    "autoReplyEnabled": false,
+    "confidenceThreshold": 0.85,
+    "replyDelaySeconds": 2,
+    "handoffKeyword": "human_agent_requested",
+    "businessContext": "Bekya Pay is a leading financial technology & digital payments platform in Egypt offering merchant QR payments, smart POS terminals, installment integrations (ValU, Souhoola, Aman), and instant wallet transfers via InstaPay & mobile wallets.",
+    "modelVariant": "AgentX Omni-Fintech v2.4 (Arabic + English)",
+    "lastTestAt": null,
+    "lastTestLatencyMs": null,
+    "testStatus": "idle"
+  },
+  "webhookEvents": [],
+  "integrationLogs": [
+    {
+      "source": "Auth Service",
+      "level": "info",
+      "message": "User Omar Abdeen (Admin) logged in successfully.",
+      "timestamp": 1793202596579,
+      "id": "log_1793202596579_rait8"
+    },
+    {
+      "source": "Auth Service",
+      "level": "info",
+      "message": "User Omar Abdeen logged out.",
+      "timestamp": 1793202546852,
+      "id": "log_1793202546853_4uyab"
+    },
+    {
+      "source": "Auth Service",
+      "level": "info",
+      "message": "Admin Omar Abdeen created staff account: محمود فاروق (Agent - Customer Support).",
+      "timestamp": 1793201435533,
+      "id": "log_1793201435533_5wfdz"
+    },
+    {
+      "id": "log_1793200635415",
+      "source": "System",
+      "level": "info",
+      "message": "All demo and test records were cleared. Platform reset to clean production state.",
+      "timestamp": 1793200635415
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1793200635415",
+      "title": "Database Reset",
+      "titleAr": "تم تصفير قاعدة البيانات",
+      "message": "All temporary customer and conversation records have been wiped clean.",
+      "messageAr": "تم حذف كافة السجلات والمحادثات التجريبية بنجاح.",
+      "type": "system",
+      "read": false,
+      "timestamp": 1793200635415
+    }
+  ]
+}
